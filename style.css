@@ -84,6 +84,7 @@ h2,p{
     text-decoration: none;
 }
 
+
 #favorite-movies{       
     position: relative;
     left: 50%;
@@ -138,4 +139,70 @@ h2,p{
 .movie #img-alien{
     position: relative;
     bottom: 0px;
+}
+
+
+/* regles media queries*/
+
+
+@media screen and (max-width: 1024px){
+
+#presentation{
+    width: 100%;
+    height: auto;
+    padding: 20px 5px;
+    margin-top: 30px;
+}
+
+#social-media{
+    width: 100%;
+    height: auto;
+    padding: 20px 5px;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#favorite-movies{       
+    width: 100%;
+    height: auto;
+    padding: 20px 5px;
+    margin-top: 30px;
+}
+
+#presentation p{
+    line-height: 18px;
+    font-size: 15px;
+    text-align: justify;
+    margin: 0px 30px;
+    position: relative;
+    margin-bottom: 10px;
+}
+#presentation a{
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+ 
+.sypnosis p{
+    line-height: 18px;
+    font-size: 15px;
+    text-align: justify;
+    margin: 0px 30px;
+    position: relative;
+    bottom: 0;
+}
+
+.movie img{
+    transform: scale(0.5);
+    position: relative;
+    bottom: 30px;
+}
+    #social-media li a{
+    color:  #dfdedd;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    
+    
+}
+    
 }
