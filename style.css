@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(212, 211, 211);
+}
+#presentation{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 45%;
+    height: auto;
+    border-radius: 5px;
+    padding: 40px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 3px rgb(177, 177, 177);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#presentation p{
+    line-height: 30px;
+    font-size: 22px;
+    text-align: justify;
+    margin: 0px 30px;
+    position: relative;
+    margin-bottom: 20px;
+}
+#tim{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 5px solid #dfdedd;
+    position: relative;
+    top: 30px;
+}
+
+#presentation h1{
+    color: #dc5559;
+    font-weight: bold;
+}
+
+h2,p{
+   color: #7e7e7e;
+}
+
+#presentation h2{
+    font-weight: 600;
+}
+
+#presentation a{
+    color: whitesmoke;
+    background-color: #dc5559;
+    text-decoration: none;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
+#social-media{
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 45%;
+    height: auto;
+    border-radius: 5px;
+    padding: 40px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 3px rgb(177, 177, 177);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#social-media ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+#social-media ul li{
+  list-style-type: none;
+}
+
+#social-media li a{
+    color:  #dfdedd;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+#favorite-movies{       
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 45%;
+    height: auto;
+    border-radius: 5px;
+    padding: 40px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 3px rgb(177, 177, 177);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#favorite-movies h2{
+    text-align: center;
+}
+
+#favorite-movies h2 span{
+    background-color: rgb(206, 206, 206);
+}
+
+#favorite-movies h3{
+    text-align: center;
+    color: #7e7e7e;
+}
+
+.movie{
+    display: flex;
+}
+
+.sypnosis p{
+    line-height: 30px;
+    font-size: 22px;
+    text-align: justify;
+    margin: 0px 30px;
+    position: relative;
+    bottom: 0;
+}
+
+.movie img{
+    transform: scale(0.6);
+    position: relative;
+    bottom: 30px;
+}
+
+.movie #img-hulot{
+    position: relative;
+    bottom: 60px;
+}
