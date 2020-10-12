@@ -53,6 +53,13 @@ h2,p{
     text-decoration: none;
     padding: 15px 10px;
     border-radius: 5px;
+    border: 1px solid tomato;
+    transition: background-color 1s linear;
+}
+
+#presentation a:hover{
+    background-color: red;
+    border: 6px double rgb(255, 255, 255);
 }
 
 #social-media{
@@ -79,12 +86,17 @@ h2,p{
   list-style-type: none;
 }
 
-#social-media li a{
+#social-media a{
+    width: 40px;
     color:  #dfdedd;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
+    transition: color 1s linear;
 }
 
+#social-media a:hover{
+    color: gray;
+}
 
 #favorite-movies{       
     position: relative;
