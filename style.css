@@ -1,8 +1,10 @@
-
-body{
+body {
     background-color: rgb(212, 211, 211);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
-#presentation{
+#presentation {
     position: relative;
     left: 50%;
     transform: translate(-50%);
@@ -13,11 +15,11 @@ body{
     margin-top: 30px;
     background-color: whitesmoke;
     box-shadow: 1px 1px 3px rgb(177, 177, 177);
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     text-align: center;
 }
 
-#presentation p{
+#presentation p {
     line-height: 30px;
     font-size: 22px;
     text-align: justify;
@@ -25,7 +27,7 @@ body{
     position: relative;
     margin-bottom: 20px;
 }
-#tim{
+#tim {
     width: 200px;
     height: 200px;
     border-radius: 100px;
@@ -34,20 +36,21 @@ body{
     top: 30px;
 }
 
-#presentation h1{
+#presentation h1 {
     color: #dc5559;
     font-weight: bold;
 }
 
-h2,p{
-   color: #7e7e7e;
+h2,
+p {
+    color: #7e7e7e;
 }
 
-#presentation h2{
+#presentation h2 {
     font-weight: 600;
 }
 
-#presentation a{
+#presentation a {
     color: whitesmoke;
     background-color: #dc5559;
     text-decoration: none;
@@ -57,12 +60,12 @@ h2,p{
     transition: background-color 1s linear;
 }
 
-#presentation a:hover{
+#presentation a:hover {
     background-color: red;
     border: 6px double rgb(255, 255, 255);
 }
 
-#social-media{
+#social-media {
     text-align: center;
     position: relative;
     left: 50%;
@@ -74,31 +77,31 @@ h2,p{
     margin-top: 30px;
     background-color: whitesmoke;
     box-shadow: 1px 1px 3px rgb(177, 177, 177);
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
-#social-media ul{
+#social-media ul {
     display: flex;
     justify-content: space-around;
 }
 
-#social-media ul li{
-  list-style-type: none;
+#social-media ul li {
+    list-style-type: none;
 }
 
-#social-media a{
+#social-media a {
     width: 40px;
-    color:  #dfdedd;
-    font-family: 'Open Sans', sans-serif;
+    color: #dfdedd;
+    font-family: "Open Sans", sans-serif;
     text-decoration: none;
     transition: color 1s linear;
 }
 
-#social-media a:hover{
+#social-media a:hover {
     color: gray;
 }
 
-#favorite-movies{       
+#favorite-movies {
     position: relative;
     left: 50%;
     transform: translate(-50%);
@@ -109,27 +112,27 @@ h2,p{
     margin-top: 30px;
     background-color: whitesmoke;
     box-shadow: 1px 1px 3px rgb(177, 177, 177);
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
-#favorite-movies h2{
+#favorite-movies h2 {
     text-align: center;
 }
 
-#favorite-movies h2 span{
+#favorite-movies h2 span {
     background-color: rgb(206, 206, 206);
 }
 
-#favorite-movies h3{
+#favorite-movies h3 {
     text-align: center;
     color: #7e7e7e;
 }
 
-.movie{
+.movie {
     display: flex;
 }
 
-.sypnosis p{
+.sypnosis p {
     line-height: 30px;
     font-size: 22px;
     text-align: justify;
@@ -138,109 +141,91 @@ h2,p{
     bottom: 0;
 }
 
-.movie img{
+.movie img {
     transform: scale(0.6);
     position: relative;
     bottom: 30px;
 }
 
-.movie #img-hulot{
+.movie #img-hulot {
     position: relative;
     bottom: 60px;
 }
 
-.movie #img-alien{
+.movie #img-alien {
     position: relative;
     bottom: 0px;
 }
 
-
-/* regles media queries smartphone*/
-
-
-@media screen and (max-width: 1024px){
-
-#presentation{
-    width: 100%;
-    height: auto;
-    padding: 20px 5px;
-    margin-top: 30px;
-}
-
-#social-media{
-    width: 100%;
-    height: auto;
-    padding: 20px 5px;
-    margin-top: 30px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-#favorite-movies{       
-    width: 100%;
-    height: auto;
-    padding: 20px 5px;
-    margin-top: 30px;
-}
-
-#presentation p{
-    line-height: 18px;
-    font-size: 15px;
-    text-align: justify;
-    margin: 0px 30px;
-    position: relative;
-    margin-bottom: 10px;
-}
-#presentation a{
-    padding: 15px 10px;
-    border-radius: 5px;
-    font-size: 12px;
-}
- 
-.sypnosis p{
-    line-height: 30px;
-    font-size: 30px;
-    text-align: justify;
-    margin: 0px 30px;
-    position: relative;
-    bottom: 0;
-}
-
-.movie img{
-    transform: scale(0.7);
-    position: relative;
-    bottom: 30px;
-}
-    #social-media li a{
-    color:  #dfdedd;
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
-}
-    
-}
-
 /* regles media queries ipad*/
 
-@media screen and (max-width: 1024px){
-
-    #presentation{
+@media screen and (max-width: 1024px) {
+    #presentation {
         width: 100%;
         height: auto;
+        padding: 20px 5px;
         margin-top: 30px;
-        padding-bottom: 30px;
-    }
-    
-    #presentation p{
-        line-height: 28px;
-        font-size: 25px;
-        margin: 0px 30px;
-        margin-bottom: 10px;
-        padding-bottom: 20px;
     }
 
-    #presentation a{
+    #social-media {
+        width: 100%;
+        height: auto;
+        padding: 20px 5px;
+        margin-top: 30px;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    #favorite-movies {
+        width: 100%;
+        height: auto;
+        padding: 20px 5px;
+        margin-top: 30px;
+    }
+
+    #presentation p {
+        line-height: 18px;
+        font-size: 15px;
+        text-align: justify;
+        margin: 0px 30px;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    #presentation a {
         padding: 15px 10px;
         border-radius: 5px;
-        font-size: 18px;
+        font-size: 12px;
+        margin: 3rem;
+    }
+
+    .sypnosis p {
+        line-height: 30px;
+        font-size: 30px;
+        text-align: justify;
+        margin: 0px 30px;
+        position: relative;
+        bottom: 0;
+    }
+
+    .movie img {
+        transform: scale(0.7);
+        position: relative;
+        bottom: 30px;
+    }
+    #social-media li a {
+        color: #dfdedd;
+        font-family: "Open Sans", sans-serif;
+        text-decoration: none;
+    }
+    
+    .movie{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #tim {
+        width: 40rem;
+        height: 40rem;
+        border-radius: 50%;
+        margin-bottom: 3rem;
     }
 }
-
